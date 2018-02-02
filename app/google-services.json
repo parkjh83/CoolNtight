@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "312728697228",
+    "firebase_url": "https://coolnight-28280.firebaseio.com",
+    "project_id": "coolnight-28280",
+    "storage_bucket": "coolnight-28280.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:312728697228:android:3b2a77e36f68a3b5",
+        "android_client_info": {
+          "package_name": "com.coolnight.coolnight"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "312728697228-aishnmqi8t1je2g4t3jjvptdmk3835eq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDrcnCeDSOcnJoU76HHPwn-yh2PFWr9Jec"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
