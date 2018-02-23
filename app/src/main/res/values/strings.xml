@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">CoolNight</string>
+    <string name="str_power">전원</string>
+    <string name="str_add">추가</string>
 </resources>
