@@ -3,24 +3,27 @@ ext {
     supportLibraryVersion = '27.0.2'
     firebaseVersion = '11.6.2'
     retrofitVersion = '2.3.0'
+    okhttpVersion = '3.10.0'
+    butterknifeVersion = '8.8.1'
 }
 
 buildscript {
     repositories {
         jcenter()
 
-        maven {
-            url 'https://maven.fabric.io/public'
-        }
+//        maven {
+//            url 'https://maven.fabric.io/public'
+//        }
+        google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.0.1'
+        classpath 'com.android.tools.build:gradle:3.1.2'
 
         // NOTE: Do not place your application dependencies here; they belong
         // in the individual module build.gradle files
 
         classpath 'com.google.gms:google-services:3.1.0'
-        classpath 'io.fabric.tools:gradle:1.24.4'
+        //classpath 'io.fabric.tools:gradle:1.24.4'
 
     }
 }
@@ -31,6 +34,7 @@ allprojects {
         maven {
             url 'https://maven.google.com/'
         }
+        google()
     }
 }
 

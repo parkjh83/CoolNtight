@@ -36,8 +36,23 @@
         android:id="@+id/layaout_weather"
         android:layout_width="match_parent"
         android:layout_height="54dp"
+        android:paddingLeft="10dp"
+        android:paddingEnd="10dp"
         app:layout_constraintBottom_toBottomOf="parent">
-        
+        <TextView
+            android:id="@+id/temperature_info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            app:layout_constraintLeft_toLeftOf="parent"/>
+        <Button
+            android:id="@+id/refresh_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/str_refresh"
+            app:layout_constraintVertical_chainStyle="packed"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
     </android.support.constraint.ConstraintLayout>
 
 
