@@ -59,8 +59,11 @@ public class WeatherNetworkManager {
                         listener.onComplete();
                     }
                 }, e -> {
-                    int a = 0;
                     e.printStackTrace();
+                    if (listener != null) {
+                        listener.onError(e);
+                        listener.onComplete();
+                    }
                 });
     }
 }

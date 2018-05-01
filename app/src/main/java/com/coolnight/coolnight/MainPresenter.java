@@ -55,7 +55,9 @@ public class MainPresenter implements MainContract {
 
             @Override
             public void onError(Throwable e) {
-
+                if (mView != null) {
+                    mView.showWeatherInfo(null);
+                }
             }
 
             @Override
